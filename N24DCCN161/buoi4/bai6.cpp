@@ -1,10 +1,12 @@
 #include<iostream>
-#include<iomanip>
 using namespace std;
 int main(){
-    double a;
-    cin>>a;
-    cout<<fixed<<setprecision(2)<<a<<endl;
+    int n;
+    cin>>n;
+    if((n%400==0)||((n%4==0)&&(n%100!=0))){
+        cout<<n<<' '<<" La Nam Nhuan"<<endl;
+    }else{
+        cout<<n<<' '<<"Khong Phai Nam Nhuan"<<endl;
+    }
     return 0;
-
 }

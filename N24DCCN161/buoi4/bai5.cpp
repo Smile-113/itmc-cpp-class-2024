@@ -1,8 +1,18 @@
 #include<iostream>
 using namespace std;
 int main(){
-    string a;
-    cin>>a;
-    cout<<"Xin chao"<<' '<<a<<endl;
+    int a,b,c,d;
+    cin>>a>>b>>c>>d;
+    int max=a;
+    if (b>max){
+        max=b;
+    }
+    if(c>max){
+        max=c;
+    }
+    if (d>max){
+        max=d;
+    }
+    cout<<"MAX:"<<max<<endl;
     return 0;
 }
