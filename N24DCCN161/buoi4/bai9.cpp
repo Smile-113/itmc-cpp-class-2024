@@ -7,7 +7,11 @@ int main (){
     cin>>a>>b>>c;
     if (a==0){
         if (b==0){
-            cout<<"Vo Nghiem";
+            if (c==0){
+                cout<<"Vo so Nghiem";
+            } else{
+                cout<<"Vo nghiem";
+            }
         }else{
             cout<<"Co 1 Nghiem:"<<(float)(-c/b);
         }

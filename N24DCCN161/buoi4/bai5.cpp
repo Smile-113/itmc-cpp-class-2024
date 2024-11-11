@@ -3,16 +3,15 @@ using namespace std;
 int main(){
     int a,b,c,d;
     cin>>a>>b>>c>>d;
-    int max=a;
-    if (b>max){
-        max=b;
+    if (b>a){
+        a=b;
     }
-    if(c>max){
-        max=c;
+    if(c>a){
+        a=c;
     }
-    if (d>max){
-        max=d;
+    if (d>a){
+        a=d;
     }
-    cout<<"MAX:"<<max<<endl;
+    cout<<"MAX:"<<a<<endl;
     return 0;
 }
